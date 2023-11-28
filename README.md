@@ -18,4 +18,15 @@ Station Analysis:
 - Designed a query to calculate the total number of stations in the dataset.
 - Designed a query to find the most-active stations
 - Designed a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query.
+- Designed a query to get the previous 12 months of temperature observation (TOBS) data. 
+A screenshot depicts the histogram.
 
+Part 2: Design Your Climate App
+- Designed a Flask API based on the queries that you just developed. 
+- List all the available routes.
+- Converted the query results from the precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using date as the key and prcp as the value.
+- Returned the JSON representation of your dictionary.
+- Returned a JSON list of stations from the dataset.
+- Queried the dates and temperature observations of the most-active station for the previous year of data.
+- Returned a JSON list of temperature observations for the previous year.
+- Returned a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
